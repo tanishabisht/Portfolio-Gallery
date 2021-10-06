@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/Project-Yuvi/static/css/main.1e6e31b6.chunk.css",
-    "main.js": "/Project-Yuvi/static/js/main.6cb3f515.chunk.js",
-    "main.js.map": "/Project-Yuvi/static/js/main.6cb3f515.chunk.js.map",
+    "main.css": "/Project-Yuvi/static/css/main.b7af9bca.chunk.css",
+    "main.js": "/Project-Yuvi/static/js/main.479e7849.chunk.js",
+    "main.js.map": "/Project-Yuvi/static/js/main.479e7849.chunk.js.map",
     "runtime-main.js": "/Project-Yuvi/static/js/runtime-main.0a2663d9.js",
     "runtime-main.js.map": "/Project-Yuvi/static/js/runtime-main.0a2663d9.js.map",
-    "static/js/2.3801546e.chunk.js": "/Project-Yuvi/static/js/2.3801546e.chunk.js",
-    "static/js/2.3801546e.chunk.js.map": "/Project-Yuvi/static/js/2.3801546e.chunk.js.map",
+    "static/css/2.ed1298f3.chunk.css": "/Project-Yuvi/static/css/2.ed1298f3.chunk.css",
+    "static/js/2.41900443.chunk.js": "/Project-Yuvi/static/js/2.41900443.chunk.js",
+    "static/js/2.41900443.chunk.js.map": "/Project-Yuvi/static/js/2.41900443.chunk.js.map",
     "index.html": "/Project-Yuvi/index.html",
-    "static/css/main.1e6e31b6.chunk.css.map": "/Project-Yuvi/static/css/main.1e6e31b6.chunk.css.map",
-    "static/js/2.3801546e.chunk.js.LICENSE.txt": "/Project-Yuvi/static/js/2.3801546e.chunk.js.LICENSE.txt",
+    "static/css/2.ed1298f3.chunk.css.map": "/Project-Yuvi/static/css/2.ed1298f3.chunk.css.map",
+    "static/css/main.b7af9bca.chunk.css.map": "/Project-Yuvi/static/css/main.b7af9bca.chunk.css.map",
+    "static/js/2.41900443.chunk.js.LICENSE.txt": "/Project-Yuvi/static/js/2.41900443.chunk.js.LICENSE.txt",
     "static/media/File_000.808bfa70.jpeg": "/Project-Yuvi/static/media/File_000.808bfa70.jpeg",
     "static/media/File_000.bdf41c97.jpeg": "/Project-Yuvi/static/media/File_000.bdf41c97.jpeg",
     "static/media/File_001.3b862302.JPG": "/Project-Yuvi/static/media/File_001.3b862302.JPG",
@@ -25,7 +27,6 @@
     "static/media/File_002.55b54fb0.JPG": "/Project-Yuvi/static/media/File_002.55b54fb0.JPG",
     "static/media/File_002.7e9a5870.jpeg": "/Project-Yuvi/static/media/File_002.7e9a5870.jpeg",
     "static/media/File_002.9e34d95f.jpeg": "/Project-Yuvi/static/media/File_002.9e34d95f.jpeg",
-    "static/media/File_002.c2def309.jpeg": "/Project-Yuvi/static/media/File_002.c2def309.jpeg",
     "static/media/File_002.c8362d44.jpeg": "/Project-Yuvi/static/media/File_002.c8362d44.jpeg",
     "static/media/File_002.d94f7367.jpeg": "/Project-Yuvi/static/media/File_002.d94f7367.jpeg",
     "static/media/File_003.32e5b7d0.jpeg": "/Project-Yuvi/static/media/File_003.32e5b7d0.jpeg",
@@ -60,8 +61,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0a2663d9.js",
-    "static/js/2.3801546e.chunk.js",
-    "static/css/main.1e6e31b6.chunk.css",
-    "static/js/main.6cb3f515.chunk.js"
+    "static/css/2.ed1298f3.chunk.css",
+    "static/js/2.41900443.chunk.js",
+    "static/css/main.b7af9bca.chunk.css",
+    "static/js/main.479e7849.chunk.js"
   ]
 }
