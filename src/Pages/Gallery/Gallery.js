@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import './Gallery.css'
+import classes from './Gallery.module.css'
 
 import final1 from '../../Images/1. Hephaestus Cabin Board/File_final.JPG'
 import final2 from '../../Images/2. Camp Beads/File_final.jpeg'
@@ -40,19 +40,21 @@ const content = [
 
 const Gallery = () => {
     return (
-        <div class="container gallery-container">
-            <h1>krafty_taku</h1>
-            <p class="page-description">YUVIKA BISHT</p>
-            <p class="page-description">if you can’t buy em, make em</p>
-            <div class="tz-gallery">
-                <div class="row">
-                    {content.map(data => (
-                        <div class="col-sm-12 col-md-4">
-                            <NavLink className='lightbox' data-visual-label={data.link} to={data.link}>
-                                <img src={data.img} alt={data.link} />
-                            </NavLink>
-                        </div>
-                    ))}
+        <div className={classes.BodyWrapper}>
+            <div className={`container ${classes.Container}`}>
+                <h1>krafty_taku</h1>
+                <p className={classes.Desc}>YUVIKA BISHT</p>
+                <p className={classes.Desc}>if you can’t buy em, make em</p>
+                <div className={classes.Gallery}>
+                    <div className={`row ${classes.Row}`}>
+                        {content.map(data => (
+                            <div className="col-sm-12 col-md-4">
+                                <NavLink className={classes.Item} data-visual-label={data.link} to={data.link}>
+                                    <img src={data.img} alt={data.link} />
+                                </NavLink>
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
         </div>

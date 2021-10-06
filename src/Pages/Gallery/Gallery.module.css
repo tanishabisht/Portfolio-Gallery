@@ -1,31 +1,36 @@
-.gallery-container {
+.BodyWrapper {
+    background-color: #434c50;
+    min-height: 100vh;
+    padding: 40px 0;
+}
+.Container {
     background-color: #fff;
     color: #333;
     min-height: 100vh;
     padding: 30px 50px;
 }
-.gallery-container h1 {
+.Container h1 {
     text-align: center;
     margin-top: 50px;
     font-weight: bold;
 }
-.gallery-container p.page-description {
+.Desc {
     text-align: center;
     margin: 25px auto;
     font-size: 18px;
     color: #999;
 }
-.tz-gallery {
+.Gallery {
     padding: 40px;
 }
 
 
 
 /* OVER-RIDE BOOTSTRAP COL PADDINGS */
-.tz-gallery .row > div {
+.Gallery .Row > div {
     padding: 2px;
 }
-.tz-gallery .lightbox img {
+.Gallery .Item img {
     width: 100%;
     border-radius: 0;
     position: relative;
@@ -34,7 +39,7 @@
 
 
 /* HOVER EFFECTS */
-.tz-gallery .lightbox:before {
+.Gallery .Item:before {
     position: absolute;
     bottom: 0;
     width: 99%;
@@ -48,7 +53,7 @@
     font-size: 2rem;
     transition: 0.4s;
 }
-.tz-gallery .lightbox:after {
+.Gallery .Item:after {
     position: absolute;
     top: 0;
     left: 0;
@@ -59,6 +64,6 @@
     content: '';
     transition: 0.4s;
 }
-.tz-gallery .lightbox:hover:after, .tz-gallery .lightbox:hover:before {
+.Gallery .Item:hover:after, .Gallery .Item:hover:before {
     opacity: 1;
 }
