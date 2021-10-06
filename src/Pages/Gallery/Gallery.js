@@ -1,22 +1,22 @@
 import { NavLink } from 'react-router-dom'
 import classes from './Gallery.module.css'
 
-import final1 from '../../Images/1. Hephaestus Cabin Board/File_final.JPG'
-import final2 from '../../Images/2. Camp Beads/File_final.jpeg'
-import final3 from '../../Images/3. Kakashi_s Anbu Mask/File_final.jpeg'
-import final4 from '../../Images/4. Tobi_s Mask/File_final.jpeg'
-import final5 from '../../Images/5. Kunai/File_final.jpeg'
-import final6 from '../../Images/6. Minato_s Kunai/File_final.jpeg'
-import final7 from '../../Images/7. Saiki Mache Painting/File_final.jpeg'
-import final8 from '../../Images/8. Asuma_s Chakra Blades/File_final.jpeg'
-import final9 from '../../Images/9. Yato_s Shrine/File_final.jpg'
-import final10 from '../../Images/10. Lostvayne/File_final.jpg'
-import final11 from '../../Images/11. Nakama/File_final.jpg'
-import final12 from '../../Images/12. Hanafuda Earrings/File_final.jpg'
-import final13 from '../../Images/13. Aladdin Keychain/File_final.jpeg'
-import final14 from '../../Images/14. Zemrow Tow’s Headband/File_final.jpeg'
-import final15 from '../../Images/15. Soot Sprite/File_final.jpg'
-import final16 from '../../Images/16. Saiki’s Limiters/File_final.JPG'
+import final1 from '../../Images/1_hephaestus_cabin_board/File_final.JPG'
+import final2 from '../../Images/2_camp_beads/File_final.jpeg'
+import final3 from '../../Images/3_kakashi_anbu_mask/File_final.jpeg'
+import final4 from '../../Images/4_tobi_mask/File_final.jpeg'
+import final5 from '../../Images/5_kunai/File_final.jpeg'
+import final6 from '../../Images/6_minato_kunai/File_final.jpeg'
+import final7 from '../../Images/7_saiki_mache_painting/File_final.jpeg'
+import final8 from '../../Images/8_asuma_chakra_blades/File_final.jpeg'
+import final9 from '../../Images/9_yato_shrine/File_final.jpg'
+import final10 from '../../Images/10_lostvayne/File_final.jpg'
+import final11 from '../../Images/11_nakama/File_final.jpg'
+import final12 from '../../Images/12_hanafuda_earrings/File_final.jpg'
+import final13 from '../../Images/13_aladdin_keychain/File_final.jpeg'
+import final14 from '../../Images/14_zemrow_tow_headband/File_final.jpeg'
+import final15 from '../../Images/15_soot_sprite/File_final.jpg'
+import final16 from '../../Images/16_saiki_limiters/File_final.JPG'
 
 const content = [
     {img:final1, link:'hephaestus-cabin-board'},
@@ -39,6 +39,7 @@ const content = [
 
 
 const Gallery = () => {
+    console.log(content)
     return (
         <div className={classes.BodyWrapper}>
             <div className={`container ${classes.Container}`}>

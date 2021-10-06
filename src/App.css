@@ -2,10 +2,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.slick-arrow:before {
-    content: '';
-}  
-
-.kayPkh div {
-  height: 100vh !important;
+.kayPkh div, .diTJkH div {
+  height: 100% !important;
 }
