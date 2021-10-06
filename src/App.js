@@ -8,7 +8,7 @@ function App() {
       <div className='bg'>
         <Switch>
           <Route exact path='/' component={Gallery} />
-          <Route exact path='/slider' component={Slider} />
+          <Route exact path='/:name' component={Slider} />
         </Switch>
       </div>
     </HashRouter>

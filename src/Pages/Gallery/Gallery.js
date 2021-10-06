@@ -47,8 +47,8 @@ const Gallery = () => {
                 <p className={classes.Desc}>if you can’t buy em, make em</p>
                 <div className={classes.Gallery}>
                     <div className={`row ${classes.Row}`}>
-                        {content.map(data => (
-                            <div className="col-sm-12 col-md-4">
+                        {content.map((data,key) => (
+                            <div className="col-sm-12 col-md-4" key={key}>
                                 <NavLink className={classes.Item} data-visual-label={data.link} to={data.link}>
                                     <img src={data.img} alt={data.link} />
                                 </NavLink>
