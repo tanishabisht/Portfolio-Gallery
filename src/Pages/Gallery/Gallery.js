@@ -43,13 +43,12 @@ const content = [
 
 
 const Gallery = () => {
-    console.log(content)
     return (
         <div className={classes.BodyWrapper}>
             <div className={`container ${classes.Container}`}>
                 <div className={classes.SocialIcons}>
-                    <a href='https://www.instagram.com/krafty_taku/' target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href='https://www.linkedin.com/in/yuvika-bisht-9a8793216/' target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a rel="noreferrer" href='https://www.instagram.com/krafty_taku/' target="_blank"><i className="fab fa-instagram"></i></a>
+                    <a rel="noreferrer" href='https://www.linkedin.com/in/yuvika-bisht-9a8793216/' target="_blank"><i className="fab fa-linkedin"></i></a>
                 </div>
                 <h1>krafty_taku</h1>
                 <p className={classes.Desc}>YUVIKA BISHT</p>

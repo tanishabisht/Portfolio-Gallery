@@ -6,6 +6,18 @@
     justify-content: center;
 }
 .Container {
-    width: 40vw;
+    width: 60rem;
     margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+    .Container {
+        width: 35rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .Container {
+        width: 40rem;
+    }
 }

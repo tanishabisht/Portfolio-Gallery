@@ -115,10 +115,7 @@ const content = [
 const SliderComponent = () => {
 
     const { name } = useParams();
-    console.log(name)
-
     const data = content.find(el => el.link === name)
-    console.log(data)
 
     return (
         <div className={classes.BodyWrapper}>
