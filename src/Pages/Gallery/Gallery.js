@@ -17,6 +17,8 @@ import final13 from '../../Images/13_aladdin_keychain/File_final.jpg'
 import final14 from '../../Images/14_zemrow_tow_headband/File_final.jpg'
 import final15 from '../../Images/15_soot_sprite/File_final.jpg'
 import final16 from '../../Images/16_saiki_limiters/File_final.jpg'
+import final17 from '../../Images/17_big_daddy_sunshine_rhitta/File_final.jpg'
+import final18 from '../../Images/18_rimuru_cushion/File_final.jpg'
 
 const content = [
     {img:final1, link:'hephaestus-cabin-board'},
@@ -35,6 +37,8 @@ const content = [
     {img:final14, link:'zemrow-tow-headband'},
     {img:final15, link:'soot-sprite'},
     {img:final16, link:'saiki-limiters'},
+    {img:final17, link:'big-daddy-sunshine-rhitta'},
+    {img:final18, link:'rimuru-cushion'},
 ]
 
 
@@ -43,6 +47,10 @@ const Gallery = () => {
     return (
         <div className={classes.BodyWrapper}>
             <div className={`container ${classes.Container}`}>
+                <div className={classes.SocialIcons}>
+                    <a href='https://www.instagram.com/krafty_taku/' target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href='https://www.linkedin.com/in/yuvika-bisht-9a8793216/' target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
                 <h1>krafty_taku</h1>
                 <p className={classes.Desc}>YUVIKA BISHT</p>
                 <p className={classes.Desc}>if you can’t buy em, make em</p>

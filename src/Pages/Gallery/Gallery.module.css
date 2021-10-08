@@ -67,3 +67,17 @@
 .Gallery .Item:hover:after, .Gallery .Item:hover:before {
     opacity: 1;
 }
+
+
+/* SOCIAL ICONS */
+.SocialIcons {
+    position: relative;
+}
+.SocialIcons > a {
+    padding-right: 2rem;
+    font-size: 3rem;
+    color: #333;
+}
+.SocialIcons > a:hover {
+    color: #aaa;
+}
